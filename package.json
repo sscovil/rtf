@@ -1,0 +1,20 @@
+{
+  "name": "@sscovil/rtf",
+  "version": "1.0.0",
+  "description": "Relative time formatter that leverages Intl.RelativeTimeFormat() under the hood.",
+  "main": "src/rtf.js",
+  "repository": "https://github.com/sscovil/rtf",
+  "author": "Shaun Scovil <sscovil@gmail.com>",
+  "license": "MITNFA",
+  "keywords": ["i18n", "date", "time", "format", "locale", "Intl", "RelativeTimeFormat"],
+  "type": "module",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "jest": {
+    "transform": {}
+  },
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
+}
